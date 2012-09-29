@@ -14,6 +14,8 @@ $wgExtensionMessagesFiles['UrlGetParametersMagic'] = $dir . 'UrlGetParameters.i1
 
 $wgHooks['ParserFirstCallInit'][] = 'urlGetParameters_Setup';
 
+$wgUrlGetParametersSeparator = ",";
+
 /**
  * @param $parser Parser
  * @return void
@@ -28,6 +30,8 @@ function urlGetParameters_Setup( $parser ) {
  * @return string
  */
 function urlGetParameters_Render( $parser ) {
+	global $wgUrlGetParametersSeparator;
+
 	// {{#urlget:paramname|defaultvalue}}
 
 	// Get the parameters that were passed to this function
@@ -42,9 +46,18 @@ function urlGetParameters_Render( $parser ) {
 	$pos_right_bracket = strpos( $params[0], ']' );
 
 	if ( !$pos_left_bracket || !$pos_right_bracket ) {
-		// Not an array
+		
 		if ( isset($_GET[$params[0]] ) ) {
-			return rawurlencode( $_GET[$params[0]] );
+			// Allow array
+			if ( is_array( $_GET[$params[0]] ) ) {
+				$listval = array();
+				foreach ($_GET[$params[0]] as $selectedOption) {
+				   	array_push( $listval, rawurlencode( $selectedOption ) );
+				}
+				return implode($wgUrlGetParametersSeparator, $listval);
+			} else {
+				return rawurlencode( $_GET[$params[0]] );
+			}
 		}
 	} else {
 		// It's an array
