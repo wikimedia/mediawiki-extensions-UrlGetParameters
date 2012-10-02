@@ -1,16 +1,38 @@
 <?php
+/**
+ * UrlGetParameters - An extension that allows to use and/or display the "GET" parameters
+ * of the URL on a wiki page
+ *
+ * @link https://www.mediawiki.org/wiki/Extension:UrlGetParameters Documentation
+ *
+ * @file UrlGetParameters.php
+ * @defgroup UrlGetParameters
+ * @ingroup Extensions
+ * @package MediaWiki
+ * @author S.O.E. Ansems
+ * @author Ankit Garg
+ * @author Yaron Koren
+ * @copyright (C) 2008 S.O.E. Ansems
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ */
+
+if ( !defined( 'MEDIAWIKI' ) ) {
+    echo "This file is not a valid entry point.";
+    exit( 1 );
+}
 
 $wgExtensionCredits['parserhook'][] = array(
-	'name'         => 'UrlGetParameters',
-	'version'      => '1.3.0', // Jan. 19, 2012
-	'descriptionmsg'  => '',
-	'author'       => 'S.O.E. Ansems',
-	'url'          => 'https://www.mediawiki.org/wiki/Extension:UrlGetParameters',
+	'path'           => __FILE__,
+	'name'           => 'UrlGetParameters',
+	'version'        => '1.3.1',
+	'descriptionmsg' => 'urlgetparameters-desc',
+	'author'         => 'S.O.E. Ansems',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:UrlGetParameters',
 );
 
-$dir = dirname( __FILE__ ) . '/';
-$wgExtensionMessagesFiles['UrlGetParameters'] = $dir . 'UrlGetParameters.i18n.php';
-$wgExtensionMessagesFiles['UrlGetParametersMagic'] = $dir . 'UrlGetParameters.i18n.magic.php';
+$dir = dirname( __FILE__ );
+$wgExtensionMessagesFiles['UrlGetParameters'] = $dir . '/UrlGetParameters.i18n.php';
+$wgExtensionMessagesFiles['UrlGetParametersMagic'] = $dir . '/UrlGetParameters.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'urlGetParameters_Setup';
 
