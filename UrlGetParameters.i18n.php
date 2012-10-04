@@ -32,3 +32,24 @@ $messages['de'] = array(
 	'urlgetparameters-desc' => 'Ermöglicht die Verwendung und/oder die Anzeige des „GET“-Parameters der URL auf einer Wikiseite',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'urlgetparameters-desc' => 'Zmóžnja wužywanje a/abo zwobraznjenje parametrow "GET" z URL na wikiboku',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'urlgetparameters-desc' => 'Zmóžnja wužiwanje a/abo zwobraznjenje parametrow "GET" z URL na wikistronje',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'urlgetparameters-desc' => 'ウィキ ページの URL の「GET」パラメーターを使用/表示できるようにする',
+);
+
