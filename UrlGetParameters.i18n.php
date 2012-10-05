@@ -46,10 +46,24 @@ $messages['hsb'] = array(
 	'urlgetparameters-desc' => 'Zmóžnja wužiwanje a/abo zwobraznjenje parametrow "GET" z URL na wikistronje',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'urlgetparameters-desc' => 'Permette di utilizzare e/o visualizzare i parametri "GET" dell\'URL in una pagina wiki',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
 $messages['ja'] = array(
 	'urlgetparameters-desc' => 'ウィキ ページの URL の「GET」パラメーターを使用/表示できるようにする',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'urlgetparameters-desc' => 'Овозможува користење и/или приказ на параметрите „GET“ на URL-адресата на вики-страница',
 );
 
