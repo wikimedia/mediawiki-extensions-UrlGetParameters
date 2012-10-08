@@ -39,6 +39,20 @@ $messages['dsb'] = array(
 	'urlgetparameters-desc' => 'Zmóžnja wužywanje a/abo zwobraznjenje parametrow "GET" z URL na wikiboku',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'urlgetparameters-desc' => 'Permite usar y/o mostrar los parámetros "GET" de la dirección URL de una página wiki',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'urlgetparameters-desc' => 'אפשרות להשתמש בפרמטרי "GET" של הכתובת או להציג אותם בדף ויקי',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
