@@ -81,6 +81,13 @@ $messages['ja'] = array(
 	'urlgetparameters-desc' => 'ウィキ ページの URL の「GET」パラメーターを使用/表示できるようにする',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'urlgetparameters-desc' => '위키 문서에 URL의 "GET" 변수를 사용/보여주도록 허용',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
