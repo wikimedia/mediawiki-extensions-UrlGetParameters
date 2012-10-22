@@ -94,4 +94,3 @@ $messages['ko'] = array(
 $messages['mk'] = array(
 	'urlgetparameters-desc' => 'Овозможува користење и/или приказ на параметрите „GET“ на URL-адресата на вики-страница',
 );
-
