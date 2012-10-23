@@ -94,3 +94,10 @@ $messages['ko'] = array(
 $messages['mk'] = array(
 	'urlgetparameters-desc' => 'Овозможува користење и/или приказ на параметрите „GET“ на URL-адресата на вики-страница',
 );
+
+/** Dutch (Nederlands)
+ * @author Wiki13
+ */
+$messages['nl'] = array(
+	'urlgetparameters-desc' => 'Maakt het mogelijk om de "GET" parameters van een URL op een pagina te zien en/of gebruiken',
+);
