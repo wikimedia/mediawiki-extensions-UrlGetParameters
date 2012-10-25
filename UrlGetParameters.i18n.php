@@ -96,8 +96,9 @@ $messages['mk'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Siebrand
  * @author Wiki13
  */
 $messages['nl'] = array(
-	'urlgetparameters-desc' => 'Maakt het mogelijk om de "GET" parameters van een URL op een pagina te zien en/of gebruiken',
+	'urlgetparameters-desc' => 'Maakt het mogelijk om de "GET"-parameters van een URL op een pagina te zien en/of te gebruiken',
 );
