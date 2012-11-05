@@ -46,6 +46,13 @@ $messages['es'] = array(
 	'urlgetparameters-desc' => 'Permite usar y/o mostrar los parámetros "GET" de la dirección URL de una página wiki',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'urlgetparameters-desc' => 'Permet d\'utiliser et/ou afficher les paramètres "GET" de l\'URL sur une page wiki',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
