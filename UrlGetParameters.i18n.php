@@ -25,6 +25,13 @@ $messages['qqq'] = array(
 	'urlgetparameters-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'urlgetparameters-desc' => 'Permite usar y/o amosar los parámetros "GET" de la URL d\'una páxina wiki',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
