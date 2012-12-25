@@ -116,3 +116,17 @@ $messages['mk'] = array(
 $messages['nl'] = array(
 	'urlgetparameters-desc' => 'Maakt het mogelijk om de "GET"-parameters van een URL op een pagina te zien en/of te gebruiken',
 );
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'urlgetparameters-desc' => 'A përmëtt ëd dovré e/o mosté ël paràmetr "GET" ëd l\'anliura dzora na pagina wiki',
+);
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'urlgetparameters-desc' => 'Дозволяє використовувати і/або відображати параметри "GET" посилання на вікісторінці',
+);
