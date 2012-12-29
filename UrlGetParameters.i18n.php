@@ -118,10 +118,11 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'urlgetparameters-desc' => 'A përmëtt ëd dovré e/o mosté ël paràmetr "GET" ëd l\'anliura dzora na pagina wiki',
+	'urlgetparameters-desc' => 'A përmëtt ëd dovré e/o mostré ël paràmetr "GET" ëd l\'anliura dzora a na pàgina wiki',
 );
 
 /** Ukrainian (українська)
