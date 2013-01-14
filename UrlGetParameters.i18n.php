@@ -125,6 +125,13 @@ $messages['pms'] = array(
 	'urlgetparameters-desc' => 'A përmëtt ëd dovré e/o mostré ël paràmetr "GET" ëd l\'anliura dzora a na pàgina wiki',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'urlgetparameters-desc' => 'Permette de ausà e/o fà vedè le parametre "GET" de l\'URL sus \'a vôsce de uicchi',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */
