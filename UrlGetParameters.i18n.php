@@ -138,3 +138,10 @@ $messages['roa-tara'] = array(
 $messages['uk'] = array(
 	'urlgetparameters-desc' => 'Дозволяє використовувати і/або відображати параметри "GET" посилання на вікісторінці',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'urlgetparameters-desc' => '允许在一个wiki页面使用和或显示URL的"GET"参数',
+);
