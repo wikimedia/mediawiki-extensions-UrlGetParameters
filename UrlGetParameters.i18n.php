@@ -19,10 +19,11 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  * @author kghbln
  */
 $messages['qqq'] = array(
-	'urlgetparameters-desc' => '{{desc}}',
+	'urlgetparameters-desc' => '{{desc|name=Url Get Parameters|url=http://www.mediawiki.org/wiki/Extension:UrlGetParameters}}',
 );
 
 /** Asturian (asturianu)
