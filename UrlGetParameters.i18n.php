@@ -103,6 +103,13 @@ $messages['ko'] = array(
 	'urlgetparameters-desc' => '위키 문서에 URL의 "GET" 변수를 사용/보여주도록 허용',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'urlgetparameters-desc' => 'Määd et möjjelesch, de <i lang="en">GET</i>-Parrameeterre uss_em URL op dä Wikisigk ze zeije udder ze bruche.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
