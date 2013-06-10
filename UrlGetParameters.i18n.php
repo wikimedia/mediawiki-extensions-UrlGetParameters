@@ -153,3 +153,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'urlgetparameters-desc' => '允许在一个wiki页面使用和或显示URL的"GET"参数',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'urlgetparameters-desc' => '容許於維基頁面中使用或顯示網址的「GET」參數',
+);
