@@ -133,6 +133,13 @@ $messages['pms'] = array(
 	'urlgetparameters-desc' => 'A përmëtt ëd dovré e/o mostré ël paràmetr "GET" ëd l\'anliura dzora a na pàgina wiki',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'urlgetparameters-desc' => 'Permite o uso e/ou exibição do parâmetro "GET" do URL numa página wiki',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
