@@ -147,6 +147,13 @@ $messages['roa-tara'] = array(
 	'urlgetparameters-desc' => 'Permette de ausà e/o fà vedè le parametre "GET" de l\'URL sus \'a vôsce de uicchi',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'urlgetparameters-desc' => 'Позволяет использовать и/или отображать «GET»-параметры URL-адреса на вики-странице',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */
