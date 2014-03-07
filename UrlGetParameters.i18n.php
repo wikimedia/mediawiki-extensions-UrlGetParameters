@@ -54,6 +54,13 @@ $messages['es'] = array(
 	'urlgetparameters-desc' => 'Permite usar y/o mostrar los parámetros "GET" de la dirección URL de una página wiki',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'urlgetparameters-desc' => 'اجازه برای استفاده و/یا نمایش "جت" پارامترهای یوآر‌ال در یک صفحه ویکی',
+);
+
 /** French (français)
  * @author Gomoko
  */
