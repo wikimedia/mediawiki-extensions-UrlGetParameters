@@ -24,13 +24,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'UrlGetParameters',
-	'version'        => '1.3.1',
+	'version'        => '1.4.0',
 	'descriptionmsg' => 'urlgetparameters-desc',
 	'author'         => 'S.O.E. Ansems',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:UrlGetParameters',
 );
 
 $dir = dirname( __FILE__ );
+$wgMessagesDirs['UrlGetParameters'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['UrlGetParameters'] = $dir . '/UrlGetParameters.i18n.php';
 $wgExtensionMessagesFiles['UrlGetParametersMagic'] = $dir . '/UrlGetParameters.i18n.magic.php';
 
@@ -68,7 +69,7 @@ function urlGetParameters_Render( $parser ) {
 	$pos_right_bracket = strpos( $params[0], ']' );
 
 	if ( !$pos_left_bracket || !$pos_right_bracket ) {
-		
+
 		if ( isset($_GET[$params[0]] ) ) {
 			// Allow array
 			if ( is_array( $_GET[$params[0]] ) ) {

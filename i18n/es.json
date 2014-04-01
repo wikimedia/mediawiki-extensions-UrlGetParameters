@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armando-Martin"
+        ]
+    },
+    "urlgetparameters-desc": "Permite usar y/o mostrar los parámetros \"GET\" de la dirección URL de una página wiki"
+}
