@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "urlgetparameters-desc": "Permite usar y/o amosar los parámetros \"GET\" de la URL d'una páxina wiki"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"urlgetparameters-desc": "Permite usar y/o amosar los parámetros \"GET\" de la URL d'una páxina wiki"
 }

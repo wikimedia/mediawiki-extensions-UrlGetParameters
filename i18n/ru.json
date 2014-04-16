@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Okras"
-        ]
-    },
-    "urlgetparameters-desc": "Позволяет использовать и/или отображать «GET»-параметры URL-адреса на вики-странице"
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"urlgetparameters-desc": "Позволяет использовать и/или отображать «GET»-параметры URL-адреса на вики-странице"
 }

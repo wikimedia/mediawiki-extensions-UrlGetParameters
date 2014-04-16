@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gomoko"
-        ]
-    },
-    "urlgetparameters-desc": "Permet d'utiliser et/ou afficher les paramètres \"GET\" de l'URL sur une page wiki"
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"urlgetparameters-desc": "Permet d'utiliser et/ou afficher les paramètres \"GET\" de l'URL sur une page wiki"
 }
