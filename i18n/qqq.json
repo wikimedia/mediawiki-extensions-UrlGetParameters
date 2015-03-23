@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"kghbln"
+			"kghbln",
+			"Umherirrender"
 		]
 	},
-	"urlgetparameters-desc": "{{desc|name=Url Get Parameters|url=http://www.mediawiki.org/wiki/Extension:UrlGetParameters}}"
+	"urlgetparameters-desc": "{{desc|name=Url Get Parameters|url=https://www.mediawiki.org/wiki/Extension:UrlGetParameters}}"
 }
