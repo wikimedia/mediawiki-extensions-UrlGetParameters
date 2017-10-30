@@ -32,7 +32,6 @@ $wgExtensionCredits['parserhook'][] = array(
 
 $dir = dirname( __FILE__ );
 $wgMessagesDirs['UrlGetParameters'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['UrlGetParameters'] = $dir . '/UrlGetParameters.i18n.php';
 $wgExtensionMessagesFiles['UrlGetParametersMagic'] = $dir . '/UrlGetParameters.i18n.magic.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'urlGetParameters_Setup';
