@@ -13,30 +13,39 @@
  * @author Ankit Garg
  * @author Yaron Koren
  * @copyright (C) 2008 S.O.E. Ansems
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
 if ( !defined( 'MEDIAWIKI' ) ) {
-    echo "This file is not a valid entry point.";
-    exit( 1 );
+	die( 'This is an extension to MediaWiki and cannot be run standalone.' );
 }
 
+// Display extension properties on MediaWiki.
 $wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'UrlGetParameters',
-	'version'        => '1.4.0',
+	'path' => __FILE__,
+	'name' => 'UrlGetParameters',
+	'version' => '1.5.0',
 	'descriptionmsg' => 'urlgetparameters-desc',
-	'author'         => 'S.O.E. Ansems',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:UrlGetParameters',
+	'author' => array(
+		'S.O.E. Ansems',
+		'...'
+	),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:UrlGetParameters',
+	'license-name' => 'GPL-2.0-or-later'
 );
 
-$dir = dirname( __FILE__ );
+// Register extension messages and other localisation.
 $wgMessagesDirs['UrlGetParameters'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['UrlGetParametersMagic'] = $dir . '/UrlGetParameters.i18n.magic.php';
+$wgExtensionMessagesFiles['UrlGetParametersMagic'] = __DIR__ . '/UrlGetParameters.i18n.magic.php';
 
+// Register extension hooks.
 $wgHooks['ParserFirstCallInit'][] = 'urlGetParameters_Setup';
 
-$wgUrlGetParametersSeparator = ",";
+// Provide configuration parameter.
+$wgUrlGetParametersSeparator = ',';
+
+// Do the extension's action.
 
 /**
  * @param $parser Parser
