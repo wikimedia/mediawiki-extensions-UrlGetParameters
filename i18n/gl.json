@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
-	"urlgetparameters-desc": "Permite usar e/ou mostrar os parámetros \"GET\" do enderezo URL nunha páxina wiki"
+	"urlgetparameters-desc": "Permite usar e/ou amosar os parámetros \"GET\" do enderezo URL nunha páxina wiki"
 }
