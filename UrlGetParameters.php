@@ -70,7 +70,7 @@ function urlGetParameters_Render( $parser ) {
 	array_shift( $params );
 
 	// Cache needs to be disabled for URL parameters to be retrieved correctly
-	$parser->disableCache();
+	$parser->getOutput()->updateCacheExpiry( 0 );
 
 	// Check whether this param is an array, i.e. of the form "a[b]"
 	$pos_left_bracket = strpos( $params[0], '[' );
