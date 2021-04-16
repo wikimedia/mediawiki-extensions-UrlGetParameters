@@ -9,8 +9,8 @@
  * @ingroup UrlGetParameters
  */
 
-$magicWords = array();
+$magicWords = [];
 
-$magicWords['en'] = array(
-	'urlget' => array( 0, 'urlget' ),
-);
+$magicWords['en'] = [
+	'urlget' => [ 0, 'urlget' ],
+];
